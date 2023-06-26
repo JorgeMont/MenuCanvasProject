@@ -1,0 +1,32 @@
+.container__prev{
+    width: 40%;
+    padding: 1rem;
+}
+.createMenu__container{
+    width: 100%;
+
+    .menu__bannerContainer{
+   
+        img{
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+    }
+
+    h1,h4,h2,h3{
+        margin-top: 1rem;
+        color: #565656;
+    }
+
+}
+
+.msg__instructions{
+    color: #787878;
+    font-style: italic;
+}
+
+.menu-editor{
+    padding: 0 1rem !important;
+}
+

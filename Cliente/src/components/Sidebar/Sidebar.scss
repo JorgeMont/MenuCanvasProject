@@ -1,0 +1,46 @@
+.aside-container{
+    background-color: #f8f9fa;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    padding: 0.5rem;
+    width: 25%;
+    margin-bottom: -1rem;
+    height: 70% !important;
+
+    aside {
+        width: 100%;
+        background-color: #f3f3f3;
+        border: 1px solid #c6c6c6;
+        margin-top: .5rem;
+        font-size: 15px;
+        border-radius: 3px;
+        padding: 2rem 0;
+        ul{
+            line-height: 3rem;
+            padding: 0.5rem 0 0 1rem;
+            
+            li{
+                margin-left: 1rem;
+                list-style: none;
+                a{
+                    i{
+                        padding-right: 1rem;
+                        font-size:30px;
+                        &:hover{
+                             border-right: 1px solid black;
+                        }
+                    }
+                    text-decoration: none;
+                    color: black;
+                    &:hover{
+                        color: blue;
+                    }
+                }
+    
+            }
+        }
+    }
+    
+}
+
+

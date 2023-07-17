@@ -12,24 +12,27 @@ function Dashboard() {
     <nav>
       <Navbar/>  
     </nav>
-    <div className="container-fluid d-flex 3fr 9fr p-3">
-      <Sidebar className="bg-light"/>
+    <div className="dashboard__container">
+      <div className="dashboard__sidebar">
+        <Sidebar className="bg-light"/>
+      </div>
+      
       <div className='categoriaPlatillos__container'>
-      <div className='categorias__container'>
-        <a href="#"><Categoria/></a>
-        <a href="#"><Categoria/></a>
-        <a href="#"><Categoria/></a>
-        <a href="#"><Categoria/></a>
-        <a href="#"><Categoria/></a>
+        <div className='categorias__container'>
+          <a href="#"><Categoria/></a>
+          <a href="#"><Categoria/></a>
+          <a href="#"><Categoria/></a>
+          <a href="#"><Categoria/></a>
+          <a href="#"><Categoria/></a>
+        </div>
 
+        <div className='platillos__container'>
+          <a href="#"><Platillo/></a> 
+          <a href="#"><Platillo/></a> 
+          <a href="#"><Platillo/></a> 
+          <a href="#"><Platillo/></a> 
+        </div>
       </div>
-      <div className='platillos__container'>
-        <a href="#"><Platillo/></a> 
-        <a href="#"><Platillo/></a> 
-        <a href="#"><Platillo/></a> 
-        <a href="#"><Platillo/></a> 
-      </div>
-    </div>
     </div>
 
      

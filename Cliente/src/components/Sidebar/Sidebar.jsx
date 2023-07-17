@@ -7,8 +7,8 @@ import {MdPayments} from "react-icons/md";
 
 function Sidebar() {
   return (
-    <div className="aside-container">
-      <aside>
+    
+    <aside>
       <ul>
         <li><a href="/"> <i><RiAccountCircleFill/></i> Cuenta</a></li>
         <li><a href="/"><i><BsPersonVcardFill/></i>Informacion Personal</a></li>
@@ -17,8 +17,7 @@ function Sidebar() {
         <li><a href="/"> <i><MdPayments/></i> Suscripcion</a></li>
       </ul>
     </aside>
-    </div>
-    
+
   )
 }
 

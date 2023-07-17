@@ -1,3 +1,18 @@
+.dashboard__container{
+    display: flex;
+    width: 100%;
+    padding: 1rem 4rem;
+}
+
+.dashboard__sidebar{
+    width: 25%;
+    height: 100%;
+}
+
+.categoriaPlatillos__container{
+    width: 75%;
+}
+
 .platillos__container{
     width: 100%;
     display: flex;
